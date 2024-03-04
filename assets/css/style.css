@@ -84,6 +84,9 @@
 
 }
 
+
+/* Reset */
+
 *,
 *::before,
 *::after{
@@ -105,6 +108,11 @@ input,
 button,
 select,
 ion-icon,
+textarea {
+    display: block;
+}
+
+
 
 
 
