@@ -377,7 +377,18 @@ navbar.active{
     min-width: unset;
 }
 
+.navbar-link::after{
+    display: none;
+}
 
+.navbar-link.span{
+    transition: var(--transition-1);
+}
+
+.navbar-link:is(:hover, :focus-visible, .active).span{
+    color: var(--gold-crayola);
+    transform: translateX(20px);
+}
 
 
 
