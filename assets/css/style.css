@@ -112,6 +112,24 @@ textarea {
     display: block;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    height: auto;
+}
+
+input,
+button,
+select,
+textarea{
+    background: none;
+    border: none;
+    font: inherit;
+}
+
 
 
 
