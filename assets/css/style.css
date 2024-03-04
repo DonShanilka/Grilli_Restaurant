@@ -199,6 +199,19 @@ body.nav-active{
     transition: var(--transition-2);
 }
 
+.preload > * {
+    transition: var(--transition-1);
+}
+
+.preload.loaded > * {
+    opacity: 0;
+}
+
+.preload.loaded {
+    transition-delay: 250ms;
+    transform: translate(100%);
+}
+
 
 
 
