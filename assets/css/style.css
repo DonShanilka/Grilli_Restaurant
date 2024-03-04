@@ -526,7 +526,7 @@ p.text {
     transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus-visible, .active).span{
+.navbar-link:is(:hover, :focus-visible, .active) .span{
     color: var(--gold-crayola);
     transform: translateX(20px);
 }
@@ -539,6 +539,14 @@ p.text {
     opacity: 0;
     transition: var(--transition-1);
 }  
+
+.navbar-link:is(:hover, :focus-visible, .active) .separator {
+    opacity: 1;
+}
+
+
+
+
 
 
 
