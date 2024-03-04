@@ -360,6 +360,25 @@ navbar.active{
     margin-block-end: 100px;
 }
 
+.navbar-list{
+    border-block-end: 1px solid var(--white-alpha-20);
+    margin-block-end: 100px;
+}
+
+.navbar-item{
+    border-block-start: 1px solid var(--white-alpha-20);
+}
+
+.navbar-link{
+    position: relative;
+    font-size: var(--fontSize-label-2);
+    text-transform: uppercase;
+    padding-block: 10px;
+    min-width: unset;
+}
+
+
+
 
 
 
