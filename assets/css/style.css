@@ -544,8 +544,17 @@ p.text {
     opacity: 1;
 }
 
+.navbar-title{
+    margin-block-end: 15px;
+}
 
+.navbar-text{
+    margin-block: 10px;
+}
 
+.sidebar-link{
+    transition: var(--transition-1);
+}
 
 
 
