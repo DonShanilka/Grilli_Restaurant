@@ -158,7 +158,7 @@ body{
     font-weight: var(--weight-regular);
     line-height: var(--lineHeight-5);
     height: 300vh;
-    /* overflow: hidden; */
+    overflow: hidden; 
 }
 
 
@@ -219,7 +219,14 @@ body.nav-active{
    border: 3px solid var(--white);
    border-block-start-color: var(--smoky-black-3);
    margin-block-end: 45px; 
-   animation: rotate360 1s linear infinite; 
+   animation: rotate360 1s linear infinite;
+
+   position: absolute; 
+    top: 0;;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 @keyframes rotate360 {
@@ -227,7 +234,7 @@ body.nav-active{
     100% {transform: rotate(1turn);}
 }
 
-.preload.text {
+p.text {
     background-image: var(--loading-text-gradient);
     background-size: 500%;
     font-size: calc(2rem + 3vw);
@@ -236,6 +243,12 @@ body.nav-active{
     text-transform: uppercase;
     letter-spacing: 16px;
     padding-inline-start: 16px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.5px var(--eerie-black-3);
+    animation: loadingText linear 2s infinite;
+    margin-top: 80%;
 }
 
 
