@@ -192,7 +192,14 @@ body.nav-active{
     right: 0;
     bottom: 0;
     background-color: var(--gold-crayola);
+    z-index: 10;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    transition: var(--transition-2);
 }
+
+
 
 
 
