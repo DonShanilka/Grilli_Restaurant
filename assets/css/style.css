@@ -297,6 +297,18 @@ p.text {
 }
 
 
+.hover-underline:is(:hover, :focus-visible)::after{
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.contact-number::after{
+    bottom: -5px;
+}
+
+.text-center{
+    text-align: center;
+}
 
 
 /* Header */
