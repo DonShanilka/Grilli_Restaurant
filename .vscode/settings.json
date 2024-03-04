@@ -1,3 +1,5 @@
 {
-    "editor.minimap.scale": 3
+    "editor.minimap.scale": 3,
+    "editor.fastScrollSensitivity": 1,
+    "editor.tabSize": 3
 }
