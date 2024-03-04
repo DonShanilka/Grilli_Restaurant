@@ -251,6 +251,10 @@ p.text {
     margin-top: 80%;
 }
 
+@keyframes loadingText {
+    0% {background-position: 100%;}
+    100% {background-position: 0%;}
+}
 
 
 
