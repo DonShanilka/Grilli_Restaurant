@@ -332,6 +332,118 @@ p.text {
     transition: var(--transition-2);
 }
 
+navbar.active{
+    visibility: visible;
+    transform: translateX(360px);
+}
+
+.navbar.close-btn{
+    color: var(--white);
+    border: 1px solid currentColor;
+    padding: 4px;
+    border-radius: var(--radius-circle);
+    margin-inline-start: auto;
+    margin-block: 30px 20px;
+}
+
+.navbar.close-btn ion-icon{
+    --ionicon-stroke-width: 40px;
+}
+
+.navbar.close-btn:is(:hover, :focus-visible){
+    color: var(--gold-crayola);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
