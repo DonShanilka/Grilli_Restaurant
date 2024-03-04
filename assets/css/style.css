@@ -256,9 +256,23 @@ p.text {
     100% {background-position: 0%;}
 }
 
+/* reussed style */
+.container{
+    padding-inline: 16px;
+}
+
+.separator{
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--gold-crayola);
+    transform: rotate(45deg);
+}
+
+
+
 
 /* Header */
-.header.btn{
+/* .header.btn{
     display: none;
 }
 
@@ -389,6 +403,15 @@ navbar.active{
     color: var(--gold-crayola);
     transform: translateX(20px);
 }
+
+.navbar-link.separator{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) rotate(45deg);
+    opacity: 0;
+    transition: var(--transition-1);
+} */
 
 
 
