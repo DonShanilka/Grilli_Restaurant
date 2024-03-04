@@ -257,9 +257,32 @@ p.text {
 }
 
 
-/* topBar */
-.topbar {
-    /* display: none; */
+/* Header */
+.header.btn{
+    display: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding-block: 40px;
+    z-index: 4;
+    border-block-end: 1px solid transparent;
+    transition: var(--transition-1);
+}
+
+.header.active{
+    padding-block: 20px;
+    background-color: var(--eerie-black-4);
+    border-color: var(--black-alpha-15);
+}
+
+.header.hide{
+    transform: translateY(-100%);
+    transition-delay: 250ms;
 }
 
 
