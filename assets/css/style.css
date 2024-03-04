@@ -257,7 +257,10 @@ p.text {
 }
 
 
-
+/* topBar */
+.topbar {
+    display: none;
+}
 
 
 
