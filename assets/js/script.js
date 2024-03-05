@@ -23,6 +23,12 @@ const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
 
+const toggleNavbar = funtion () {
+  navbar.classList.toggle("active");
+  overlay.classList addEventOnElement(elements : AnalyserNode,
+    document.bodycla eventType: AnalyserNode, callback: any): void
+}
+
 
 
 
