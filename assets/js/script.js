@@ -8,3 +8,28 @@ window.addEventListener("load", function () {
   preloader.classList.add("loaded");
   document.body.classList.add("loaded");
 });
+
+
+// add event listner on multiple element
+const addEventOnElement = function (element, eventType, callback) {
+  for(let i = 0, len = elements.length; i < len; i++) {
+    elements[i].addEventListener(eventType, callback);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
