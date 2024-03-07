@@ -108,3 +108,19 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  li {
+    list-style: none;
+  }
+
+  a,
+  img,
+  data,
+  span,
+  input,
+  button,
+  select,
+  ion-icon,
+  textarea {
+    display: block;
+  }
