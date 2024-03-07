@@ -143,4 +143,18 @@
     font: inherit;
   }
 
-  
+input,
+select,
+textarea {
+    width: 100%;
+    outline: none;
+}  
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
