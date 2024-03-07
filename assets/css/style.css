@@ -396,6 +396,32 @@ body .nav-active {
     transform: translate(-50%, -50%);
 }
 
+.btn-secondary {
+    background-color: var(--gold-crayola);
+    color: var(--black);
+}
+
+.btn-secondary::before {
+    background-color: var(--smoky-black-1);
+}
+
+.btn-secondary .text-2 {
+    color: var(--white);
+}
+
+.has-before,
+.has-after {
+    position: relative;
+    z-index: 1;
+}
+
+.has-before::before,
+.has-after::after {
+    content: "";
+    position: absolute;
+}
+
+
 
 /* PERLOAD */
 
