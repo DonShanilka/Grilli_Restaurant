@@ -221,3 +221,19 @@ body .nav-active {
     font-size: var(--fontSize-headline-2);
     line-height: var(--lineHeight-6);
 }
+
+.title-1 {
+    font-size: var(--fontSize-title-1);
+}
+
+.title-2 {
+    font-size: var(--fontSize-title-2);
+}
+
+.title-3 {
+    font-size: var(--fontSize-title-3);
+}
+
+.title-4 {
+    font-size: var(--fontSize-title-4);
+}
