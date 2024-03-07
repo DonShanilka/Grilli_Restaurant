@@ -164,7 +164,7 @@ html {
 }
 
 body {
-    border-color: var(--eerie-black-1);
+    border-color: black;
     color: var(--white);
     font-family: var(--fontFamily-dm_sans);
     font-size: var(--fontSize-body-4);
@@ -279,6 +279,12 @@ body .nav-active {
 
 .contact-lable {
     font-weight: var(--weight-bold);
+}
+
+.contact-number {
+    color: var(--gold-crayola);
+    max-width: max-content;
+    margin-inline: auto;
 }
 
 /* PERLOAD */
