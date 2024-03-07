@@ -162,3 +162,13 @@ html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
+
+body {
+    border-color: var(--eerie-black-1);
+    color: var(--white);
+    font-family: var(--fontFamily-dm_sans);
+    font-size: var(--fontSize-body-4);
+    font-weight: var(--weight-regular);
+    line-height: var(--lineHeight-5);
+    height: 300vh;
+}
