@@ -164,7 +164,7 @@ html {
 }
 
 body {
-    border-color: black;
+    border-color: var(--eerie-black-3);
     color: var(--white);
     font-family: var(--fontFamily-dm_sans);
     font-size: var(--fontSize-body-4);
@@ -286,6 +286,63 @@ body .nav-active {
     max-width: max-content;
     margin-inline: auto;
 }
+
+.hover-underline {
+    position: relative;
+    min-width: max-content;
+}
+
+.hover-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    border-block: 1px solid var(--gold-crayola);
+    transform: scaleX(0.2);
+    opacity: 0;
+    transition: var(--transition-2);
+}
+
+.hover-underline:is(:hover, :focus-visible)::after {
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.contact-number::after{
+    bottom: -5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-subtitle {
+    position: relative;
+    color: var(--gold-crayola);
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: var(--letterSpacing-2);
+    margin-block-end: 12px;
+}
+
+.section-subtitle::after {
+    content: url('../image/separator.svg');
+    display: block;
+    width: 100px;
+    margin-inline: auto;
+    margin-block-start: 5px;
+}
+
+
+
 
 /* PERLOAD */
 
