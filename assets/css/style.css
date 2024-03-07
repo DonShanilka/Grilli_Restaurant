@@ -264,3 +264,8 @@ body .nav-active {
     font-size: var(--fontSize-label-2);
 }
 
+
+/* Reused style */
+.container {
+    padding-inline: 16px;
+}
