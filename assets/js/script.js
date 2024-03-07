@@ -74,6 +74,7 @@ let lastActiveSliderItem = heroSliderItems[0];
 const updateSliderPos = function() {
   lastActiveSliderItem.classList.remove("active");
   heroSliderItem[currentSlidePos].classList.add("active");
+  
 }
 
 
