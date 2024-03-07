@@ -270,7 +270,16 @@ body .nav-active {
     padding-inline: 16px;
 }
 
+.separator {
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--gold-crayola);
+    transform: rotate(45deg);
+}
 
+.contact-lable {
+    font-weight: var(--weight-bold);
+}
 
 /* PERLOAD */
 
