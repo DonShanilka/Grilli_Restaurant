@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
 
 
 // add event listner on multiple element
-const addEventOnElement = function (element, eventType, callback) {
+const addEventOnElements = function (elements, eventType, callback) {
   for(let i = 0, len = elements.length; i < len; i++) {
     elements[i].addEventListener(eventType, callback);
   }
@@ -29,7 +29,7 @@ const togglerNavbar = function(){
   document.body.classList.toggle("nav-active");
 }
 
-addEventOnElement(navbarTogglers, "click", togglerNavbar);
+addEventOnElements(navbarTogglers, "click", togglerNavbar);
 
 
 // Header & Back top btn
