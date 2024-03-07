@@ -300,3 +300,13 @@ body .nav-active {
     transition-delay: 500ms;
     transform: translateY(100%);
 }
+
+.circle {
+    width: 112px;
+    height: 112px;
+    border-radius: var(--radius-circle);
+    border: 3px solid var(--white);
+    border-block-start-color: var(--smoky-black-3);
+    margin-block-end: 45px;
+    animation: rotated360 1s linear infinite;
+}
