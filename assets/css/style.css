@@ -596,6 +596,13 @@ p.text {
 }
 
 
+/* HERO */
+
+.hero .slider-btn{
+    display: none;
+}
+
+
 
 
 

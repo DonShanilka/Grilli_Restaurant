@@ -20,14 +20,22 @@ const addEventOnElement = function (element, eventType, callback) {
 
 // navbar
 const navbar = document.querySelector("[data-navbar]");
-const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+const navbarTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
 
-const toggleNavbar = funtion () {
+const togglerNavbar = function(){
   navbar.classList.toggle("active");
-  overlay.classList addEventOnElement(elements : AnalyserNode,
-    document.bodycla eventType: AnalyserNode, callback: any): void
+  overlay.classList.toggle("active");
+  document.body.classList.toggle("nav-active");
 }
+
+addEventOnElement(navbarTogglers, "click", togglerNavbar);
+
+
+// Header & Back top btn
+const header = document.querySelector("[data-header]");
+const backTopBtn = document.querySelector("[data-back-top-btn]");
+
 
 
 
