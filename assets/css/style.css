@@ -421,6 +421,23 @@ body .nav-active {
     position: absolute;
 }
 
+.section {
+    position: relative;
+    padding-block: var(--section-space);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bg-black-10 {
+    background-color: var(--smoky-black-2);
+}
+
+.grid-list {
+    display: grid;
+    gap: 40px;
+}
+
+
 
 
 /* PERLOAD */
