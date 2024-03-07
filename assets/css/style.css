@@ -196,6 +196,7 @@ body .nav-active {
 
 /* Typography */
 .display-1,
+.headline-1,
 .headline-2,
 .title-1,
 .title-2,
@@ -212,3 +213,11 @@ body .nav-active {
     line-height: var(--lineHeight-1);
 }
 
+.headline-1 {
+    font-size: var(--fontSize-headline-1);
+}
+
+.headline-2 {
+    font-size: var(--fontSize-headline-2);
+    line-height: var(--lineHeight-6);
+}
