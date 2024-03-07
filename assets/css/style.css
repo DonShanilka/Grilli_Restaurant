@@ -392,8 +392,11 @@ p.text {
     position: relative;
     color: var(--gold-crayola);
     font-weight: var(--weight-bold);
-    
+    text-transform: uppercase;
+    letter-spacing: var(--letterSpacing-2);
+    margin-block-end: 12px;
 }
+
 
 
 /* topbar */
