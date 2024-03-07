@@ -195,3 +195,20 @@ body .nav-active {
 
 
 /* Typography */
+.display-1,
+.headline-2,
+.title-1,
+.title-2,
+.title-3,
+.title-4 {
+    color: var(--white);
+    font-family: var(--fontFamily-forum);
+    font-weight: var(--weight-regular);
+    line-height: var(--lineHeight-2);
+}
+
+.display-1 {
+    font-style: var(--fontSize-display-1);
+    line-height: var(--lineHeight-1);
+}
+
