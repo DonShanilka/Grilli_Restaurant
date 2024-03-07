@@ -310,3 +310,8 @@ body .nav-active {
     margin-block-end: 45px;
     animation: rotated360 1s linear infinite;
 }
+
+@keyframes rotated360 {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(1turn);}
+}
