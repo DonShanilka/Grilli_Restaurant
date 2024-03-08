@@ -492,7 +492,34 @@ body .nav-active {
     animation: move 5s linear infinite;
 }
 
-/* methanin */
+@keyframes move {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+.has-bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.input-filed {
+    background-color: var(--eerie-black-2);
+    color: var(--white);
+    height: 56px;
+    padding: 10px 20px;
+    border: 1px solid var(--white-alpha-10);
+    margin-block-end: 20px;
+    outline: none;
+    transition: border-color var(--transition-2);
+}
+
 
 
 /* PERLOAD */
