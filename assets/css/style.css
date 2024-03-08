@@ -520,6 +520,21 @@ body .nav-active {
     transition: border-color var(--transition-2);
 }
 
+.input-filed::placeholder {
+    color: inherit;
+}
+
+.input-filed:focus {
+    border-color: var(--gold-crayola);
+}
+
+.icon-wrapper {
+    position: relative;
+    margin-block-end: 20px;
+}
+
+
+
 
 
 /* PERLOAD */
