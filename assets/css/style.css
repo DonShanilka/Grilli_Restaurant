@@ -838,3 +838,11 @@ body .nav-active {
     transition: var(--transition-2);
     z-index: 1;
 }
+
+.overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+/* Hero */
