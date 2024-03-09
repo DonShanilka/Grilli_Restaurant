@@ -793,3 +793,11 @@ body .nav-active {
     opacity: 1;
 }
 
+.navbar-title {
+    margin-block-end: 15px;
+}
+
+.navbar-text {
+    margin-block: 10px;
+}
+
