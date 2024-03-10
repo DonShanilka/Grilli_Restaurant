@@ -993,6 +993,13 @@ body .nav-active {
 
 
 
+/* About */
+
+.about-content {
+    padding-inline-end: 90px;
+}
+
+
 /* Special Dish */
 
 .special-dish {
@@ -1014,4 +1021,20 @@ body .nav-active {
     bottom: 0;
     transform: translateY(50%);
     width: max-content;
+}
+
+
+/* Features */
+
+.features {
+    overflow: visible;
+}
+
+.features .shape {
+    display: block;
+}
+
+.features .shape-1 {
+    top: -100px;
+    left: 0;
 }
