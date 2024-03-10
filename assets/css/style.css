@@ -901,3 +901,20 @@ body .nav-active {
     100% {transform: scale(1.15);}
 }
 
+.hero .section-subtitle::after{
+    margin-block: 14px 20px;
+}
+
+.hero-text {
+    margin-block: 10px 40px;
+}
+
+.hero .btn {
+    margin-inline: auto;
+}
+
+.hero-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
