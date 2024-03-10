@@ -999,20 +999,10 @@ body .nav-active {
     padding-inline-end: 90px;
 }
 
-.special-dish .shape {
+.about .shape {
     display: block;
-    right: 0;
-    z-index: 1;
-}
-
-.special-dish .shape-1 {
-    top: 45%;
-}
-
-.special-dish .shape-2 {
-    bottom: 0;
-    transform: translateY(50%);
-    width: max-content;
+    top: 46%;
+    left: 0;
 }
 
 
