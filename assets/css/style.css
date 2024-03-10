@@ -1016,6 +1016,25 @@ body .nav-active {
     will-change: transform;
 }
 
+.service-card:is(:hover, :focus-within) .has-before::before {
+    transform: rotateY(0.5turn) translateX(50%);
+    transition-delay: 300ms;
+}
+
+.service-card .card_banner {
+    transition: var(--transition-2);
+}
+
+.service-card:is(:hover, :focus-within) .card_banner {
+    transform: scale(1.05);
+}
+
+.service .card-title {
+    margin-block-end: 12px;
+}
+
+
+
 
 
 /* Responsiv for larger than 1400px screen */
