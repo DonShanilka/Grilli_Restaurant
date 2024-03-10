@@ -972,3 +972,26 @@ body .nav-active {
     animation-delay: 1000ms;
 }
 
+.hero .slider-item.active .hero-text {
+    animation-delay: 1.5s;
+}
+
+.hero .slider-item.active .btn {
+    animation-delay: 2s;
+}
+
+
+/* Service */
+
+.service .section-title {
+    margin-block-end: 16px;
+}
+
+.service .section-text {
+    margin-block-end: 40px;
+}
+
+
+
+/* Special Dish */
+

@@ -74,10 +74,31 @@ let lastActiveSliderItem = heroSliderItems[0];
 const updateSliderPos = function() {
   lastActiveSliderItem.classList.remove("active");
   heroSliderItem[currentSlidePos].classList.add("active");
-  
 }
 
+const slideNext = function () {
+  if (currentSlidePos >= heroSliderItem.length - 1) {
+    currentSlidePos = 0;
+  } else {
+    currentSlidePos ++;
+  }
 
+  updateSliderPos();
+}
+
+heroSliderNextBtn.addEventListener("click", slideNext);
+
+const slidePrev = function () {
+  if (currentSlidePos <= 0) {
+    currentSlidePos = heroSliderItem.length - 1;
+  } else {
+    currentSlidePos--;
+  }
+
+  updateSliderPos();
+}
+
+heroSliderPrevBtn.addEventListener("click", slidePrev);
 
 
 
