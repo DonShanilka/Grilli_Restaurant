@@ -846,3 +846,7 @@ body .nav-active {
 
 
 /* Hero */
+
+.hero .slider-btn{
+    display: none;
+}
