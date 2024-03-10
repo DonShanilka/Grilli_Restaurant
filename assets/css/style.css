@@ -991,6 +991,38 @@ body .nav-active {
     margin-block-end: 40px;
 }
 
+.service-card {
+    overflow: hidden;
+}
+
+.service-card .has-before {
+    padding-block: 30px;
+    margin-block-end: 26px;
+    z-index: 1;
+}
+
+.service-card .has-before::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 100%;
+    background-image: url('../image/img-pattern.svg');
+    background-position: center;
+    background-repeat: repeat;
+    transition: var(--transition-2);
+    transition-delay: 0;
+    z-index: -1;
+    will-change: transform;
+}
+
+
+
+/* Responsiv for larger than 1400px screen */
+
+@media (min-width: 1400px) {
+
+
 
 /* Header */
 
@@ -1049,4 +1081,6 @@ body .nav-active {
 .features .shape-1 {
     top: -100px;
     left: 0;
+}
+
 }
